@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Pizzaria Dev!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="style.css">
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/pizza.popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel img {
+    width: 30%;
+    height: auto;
+    margin: auto;
+
+}
+.jumbotron{
+    background-image: url('img/bg_2.jpg')
+
+
+}     
+
+
+  </style>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-sm navbar-dark bg-faded" style="background-color: black; border-color: black;">
+<button class="navbar-toggler" data-toggle="collapse" data-target="#navegacao">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+<div class="dropdown">
+  <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Menu
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="pizzas.html">Pizzas</a>
+    <a class="dropdown-item" href="massas.html">Massas</a>
+    <a class="dropdown-item" href="bebidas.html">Bebidas</a>
+  </div>
+</div>
+		
+    <div id="navegacao" class="collapse navbar-collapse">
+    
+      
+      <ul class="navbar-nav ml-auto">
+ 		 <a class="navbar-brand pull-right"><img src="img/bg_1.png" /></a>
+        <li class="page-item active"><a class="nav-link" href="index.html">Inicio</a></li>
+        <li class="page-item"><a class="nav-link" href="login.html">Entrar</a></li>
+        <li class="page-item"><a class="nav-link" href="cadastro.html">Cadastre-se</a></li>
+        <li class="page-item "><a class="nav-link" href="contato.html">Contato</a></li>
+
+      </ul>
+    </div>
+
+  </nav>
+  <!--Jumbotron-->
+<div class="jumbotron jumbotron-fluid" style="background-color: black; border-color: black;">
+    <h1 class="display-4"></h1><br><br><br>
+    <p class="lead">Rua Ficticica, N 0 - Bairro</p>
+  </div>
+</div> 
+<!--navegacao-->
+ 
+ <main>
+
+<div id="demo" class="carousel slide" data-ride="carousel" data-interval="3000"style="background-color: black;" >
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+    <li data-target="#demo" data-slide-to="4"></li>
+  </ul>
+ 
+  <!-- The slideshow -->
+  <div class="carousel-inner ">
+    <div class="carousel-item active">
+      <img src="img/carousel/pasta-1.jpg" alt="pasta-" class="img-fluid d-block">
+    </div>
+    <div class="carousel-item">
+      <img src="img/carousel/image_4.jpg" alt="Chicago" Class="img-fluid d-block">
+    </div>
+    <div class="carousel-item">
+      <img src="img/carousel/image_6.jpg" alt="Comida" class="img-fluid d-block">
+    </div>
+    <div class="carousel-item">
+      <img src="img/carousel/drink-4.jpg" alt="Cerveja artesanal" class="img-fluid d-block"> <!--LUTEI MAS CONSEGUI CENTRALIZAR-->
+    </div>
+    <div class="carousel-item">
+      <img src="img/carousel/pizza-2.jpg" alt="Pizza" class="img-fluid d-block">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+ </main>
+<!-- Footer -->
+<footer class="page-footer font-small indigo bacground bg-faded" style="background-color: black; border-color: black;">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+       
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Instagram</a>
+          </li>
+          <li>
+            <a href="#!">Facebook</a>
+          </li>
+      
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+
+
+</footer>
+<!-- Footer -->
+</body>
+</html>

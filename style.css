@@ -1,0 +1,58 @@
+.jumbotron{
+  background-size: cover;
+  color: white;
+  background-position: center;
+  box-sizing: content-box;
+  margin-bottom: 0px !important;
+  border:2px solid black;
+  } 
+    
+
+h1{
+
+font:20px  Candara white;
+text-shadow:4px white;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: black;
+}
+p{
+ font:15px  Candara white;
+text-shadow:4px white;
+position: left;
+
+}
+body{
+
+ background-color: black;
+}
+.navbar-nav{
+  background-color: black;
+}
+#navegacao{
+   background-color: black;
+}
+.collapse-navbar-collapse{
+ background-color: black;
+ display: none;
+}
+.carousel-inner{
+  background-color:black;
+}
+#rodape{
+  text-align: center;
+  background: black;
+  display: none;
+  padding: auto;
+
+}
+.container{
+  padding: 100px; 
+}
+
+ul a img{
+  width: 40px;
+}
+#formCadastro{
+  padding: 200px;
+  background:#d3d3d3;
+}
